@@ -25,7 +25,7 @@ app.post('/translate', async (req, res) => {
     const detectedLanguage = detect(text);
 
     // To Check if the detected language is not English
-    if (detectedLanguage !== 'en') {
+    if (detectedLanguage[0].lang !== 'en') {
         return res.status(400).json({ error: 'Please enter your text in English language.' });
     }
 

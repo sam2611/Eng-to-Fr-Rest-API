@@ -1,0 +1,17 @@
+{
+  "name": "eng-to-fr-rest-api",
+  "version": "1.0.0",
+  "description": "english to french translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sakshi",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "langdetect": "^0.2.1"
+  }
+}
